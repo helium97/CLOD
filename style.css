@@ -5,7 +5,7 @@ model-viewer#interaction {
 }
 
 center-fit {
-  transform: translate(-50%, -50%);
-  left: 50vw;
-  top: 50vh;
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
 }
