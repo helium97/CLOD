@@ -5,7 +5,7 @@ model-viewer#interaction {
 }
 
 #ar-button {
-    
+
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: 12px 50%;
@@ -24,3 +24,15 @@ model-viewer#interaction {
     border-radius: 18px;
     border: 1px solid #DADCE0;
   }
+
+  #ar-button:active {
+      background-color: #E8EAED;
+    }
+
+    #ar-button:focus {
+      outline: none;
+    }
+
+    #ar-button:focus-visible {
+      outline: 1px solid #4285f4;
+    }
