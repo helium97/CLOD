@@ -17,12 +17,12 @@ model-viewer {
 
 <body>
 
-    <model-viewer
+<model-viewer
   data-name="baloon"
   src="CLODmoduleAR.glb"
   ios-src="CLODmoduleAR.usdz"
   ar
-  ar-placement="floor wall"
+  ar-placement="floor"
   ar-modes="scene-viewer quick-look"
   camera-controls
   auto-rotate
@@ -31,6 +31,21 @@ model-viewer {
 
 <button slot="ar-button" id="ar-button">
     Try it in AR
+  </button>
+
+<model-viewer
+  data-name="baloon"
+  ios-src="NewClodExplodedAR.usdz"
+  ar
+  ar-placement="floor"
+  ar-modes="scene-viewer quick-look"
+  camera-controls
+  auto-rotate
+  poster="CLODposterAR.png"
+>
+
+<button slot="ar-button" id="ar-button">
+    Try exploded view in AR
   </button>
 
 </body>
