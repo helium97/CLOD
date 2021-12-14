@@ -1,10 +1,11 @@
 model-viewer#interaction {
-    --poster-color: transparent;
-    height: 100%;
-    width: 100%;
-  }
+  --poster-color: transparent;
+  height: 100%;
+  width: 100%;
+}
 
-  div {
-    height: 100%;
-    width: 100%;
-  }
+center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
