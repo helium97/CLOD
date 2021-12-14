@@ -1,3 +1,8 @@
 model-viewer#interaction {
     --poster-color: transparent;
   }
+
+  div {
+    height: 100%;
+    width: 100%;
+  }
