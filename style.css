@@ -5,7 +5,7 @@ model-viewer#interaction {
 }
 
 center-fit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  transform: translate(-50%, -50%);
+  left: 50vw;
+  top: 50vh;
 }
