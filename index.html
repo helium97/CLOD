@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<!-- Use it like any other HTML element -->
+<model-viewer src="shared-assets/models/Astronaut.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
+
 </head>
 
 <body>
   <div>
-    <a rel="ar" href="NewClodExplodedAR.usdz">
-        <img src="ExplodedView.jpg">
-    </a>
+    <model-viewer
+  data-name="baloon"
+  src="NewClodExplodedAR.glb"
+  ios-src="NewClodExplodedAR.usdz"
+  ar
+  ar-modes="scene-viewer quick-look"
+  camera-controls
+  auto-rotate
+  poster="ExplodedView.jpg"
+>
 </div>
 
 </body>
