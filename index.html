@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html>
-<!-- Import the component -->
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-<!-- Use it like any other HTML element -->
-<model-viewer src="./New Clod Exploded AR.usdz" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
 
 <body>
-  <model-viewer
-  src="./New Clod Exploded AR.usdz"
-  ios-src="./New Clod Exploded AR.usdz"
-  ar
-  ar-modes="scene-viewer quick-look"
-  camera-controls
-  auto-rotate
-  poster="./images/baloon.png"
+  <div>
+  <a
+    rel="ar"
+    href="/New Clod Exploded AR.usdz"
   >
+    <img
+      src="/ExplodedView.jpeg"
+    />
+  </a>
+</div>
 </body>
