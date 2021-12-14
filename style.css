@@ -29,10 +29,10 @@ model-viewer#interaction {
       background-color: #E8EAED;
     }
 
-    #ar-button:focus {
+  #ar-button:focus {
       outline: none;
     }
 
-    #ar-button:focus-visible {
+  #ar-button:focus-visible {
       outline: 1px solid #4285f4;
     }
