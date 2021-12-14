@@ -1,11 +1,5 @@
 model-viewer#interaction {
   --poster-color: transparent;
-  height: 100%;
-  width: 100%;
-}
-
-center-fit {
-  max-width: 100%;
-  max-height: 100vh;
-  margin: auto;
+  width: 1000px;
+  height: 600px;
 }
